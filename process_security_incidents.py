@@ -1,4 +1,3 @@
-
 import csv
 with open('security_incidents.csv', 'r', newline='') as file:
     reader= csv.reader(file)
@@ -16,4 +15,3 @@ for i in range(1,len(incidents_list)):
 with open('security_incidents_modified.csv', 'w', newline ='') as file:
     writer = csv.writer(file)
     writer.writerows(incidents_list)
-#git config pull.rebase false
