@@ -1,3 +1,4 @@
+git config pull.rebase false
 import csv
 with open('security_incidents.csv', 'r', newline='') as file:
     reader= csv.reader(file)
